@@ -7,7 +7,7 @@ nb.classList.toggle('shadow-md', window.scrollY > 20);
     const el = document.getElementById(id);
     if (!el) return;
     const r = el.getBoundingClientRect();
-    const a = document.querySelector(`.nav-link[href="#${id}"]`);
+    const a = document.querySelector(`.nav-link[href="#${id}"], .nav-link[href$="#${id}"]`);
     if (a) a.classList.toggle('active', r.top <= 80 && r.bottom > 80);
 });
 });

@@ -15,7 +15,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="preload" href="/assets/css/style.css" as="style">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preload" href="/output.css" as="style">
     <link rel="stylesheet" href="/output.css">
     <!-- <link rel="stylesheet" href="/assets/css/all.min.css"> -->
@@ -26,8 +26,8 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-[72px]">
             <!-- Logo -->
             <a href="#home" class="flex items-center gap-3 group no-underline">
-                <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-primary-600 to-accent-500 flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
-                    🧹
+                <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
+                    <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
                 </div>
                 <div>
                     <span class="block text-2xl font-black text-primary-600 leading-none font-tajawal tracking-tight">شركة كلين للتنظيف بالرياض اونلاين</span>
@@ -40,7 +40,7 @@
                     <a href="#home" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline active">الرئيسية</a>
                 </li>
                 <li>
-                    <a href="#services" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">خدماتنا</a>
+                    <a href="/services/" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">خدماتنا</a>
                 </li>
                 <li>
                     <a href="#about" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">من نحن</a>
@@ -66,7 +66,7 @@
     <!-- Mobile Menu -->
     <div id="mobileMenu" class="hidden fixed top-[72px] right-0 left-0 z-40 bg-white border-b border-slate-100 shadow-xl px-6 py-4 flex-col gap-1">
         <a href="#home" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">🏠 الرئيسية</a>
-        <a href="#services" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">🧹 خدماتنا</a>
+        <a href="/services/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">🧹 خدماتنا</a>
         <a href="#about" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">👤 من نحن</a>
         <a href="#blog" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">📝 المدونة</a>
         <a href="#faq" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">❓ الأسئلة الشائعة</a>
@@ -122,7 +122,7 @@
             <div class="relative hidden lg:block animate-fade-up" style="animation-delay:.2s;opacity:0">
             <!-- Float badges -->
                 <div class="absolute -top-5 -right-6 bg-white rounded-2xl px-4 py-3 shadow-card flex items-center gap-3 z-10">
-                    <div class="w-9 h-9 rounded-xl bg-accent-100 text-accent-600 flex items-center justify-center text-lg">🌿</div>
+                    <div class="w-9 h-9 rounded-xl bg-accent-100 text-accent-600 flex items-center justify-center text-lg"><i class="fa-solid fa-leaf text-green-600"></i></div>
                     <div>
                         <div class="text-[11px] text-slate-400 font-semibold">مواد تنظيف</div>
                         <div class="text-sm font-black text-accent-700">آمنة 100%</div>
@@ -131,25 +131,25 @@
                 <div class="bg-white rounded-3xl p-10 shadow-card-hover border border-slate-100">
                     <div class="grid grid-cols-2 gap-4">
                         <div class="group bg-primary-50 rounded-2xl p-6 text-center hover:bg-primary-600 transition-all cursor-default">
-                            <span class="text-5xl block mb-2">💧</span>
+                            <span class="text-5xl block mb-2"><img class="rounded-2xl" src="/assets/images/خزانات.webp" alt="تنظيف الخزانات"></span>
                             <span class="text-sm font-bold text-slate-600 group-hover:text-white transition-colors">تنظيف الخزانات</span>
                         </div>
                         <div class="group bg-accent-50 rounded-2xl p-6 text-center hover:bg-accent-600 transition-all cursor-default">
-                            <span class="text-5xl block mb-2">🏠</span>
+                            <span class="text-5xl block mb-2"><img class="rounded-2xl" src="/assets/images/منازل.webp" alt="تنظيف المنازل"></span>
                             <span class="text-sm font-bold text-slate-600 group-hover:text-white transition-colors">تنظيف المنازل</span>
                         </div>
                         <div class="group bg-amber-50 rounded-2xl p-6 text-center hover:bg-amber-500 transition-all cursor-default">
-                            <span class="text-5xl block mb-2">🏢</span>
+                            <span class="text-5xl block mb-2"><img class="rounded-2xl" src="/assets/images/شركات.webp" alt="تنظيف الشركات"></span>
                             <span class="text-sm font-bold text-slate-600 group-hover:text-white transition-colors">تنظيف الشركات</span>
                         </div>
                         <div class="group bg-violet-50 rounded-2xl p-6 text-center hover:bg-violet-600 transition-all cursor-default">
-                            <span class="text-5xl block mb-2">🛡️</span>
+                            <span class="text-5xl block mb-2"><img class="rounded-2xl" src="/assets/images/خزانات2.webp" alt="تنظيف خزانات"></span>
                             <span class="text-sm font-bold text-slate-600 group-hover:text-white transition-colors">التعقيم والتطهير</span>
                         </div>
                     </div>
                 </div>
                 <div class="absolute -bottom-5 -left-6 bg-white rounded-2xl px-4 py-3 shadow-card flex items-center gap-3 z-10">
-                    <div class="w-9 h-9 rounded-xl bg-primary-100 text-primary-600 flex items-center justify-center text-lg">⏰</div>
+                    <div class="w-9 h-9 rounded-xl bg-primary-100 text-primary-500 flex items-center justify-center"><i class="fa-solid fa-clock"></i></div>
                     <div>
                         <div class="text-[11px] text-slate-400 font-semibold">متاح</div>
                         <div class="text-sm font-black text-primary-700">24 / 7 ساعة</div>
@@ -173,7 +173,7 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Card 1 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-44 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl">💧</div>
+                    <div class="h-52 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl"><img src="/assets/images/خزانات.webp" alt="تنظيف الخزانات"></div>
                     <div class="p-6">
                         <span class="inline-block bg-primary-100 text-primary-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">الأكثر طلبًا</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف الخزانات</h3>
@@ -190,7 +190,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-44 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl">🏠</div>
+                    <div class="h-52 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl"><img src="/assets/images/منازل.webp" alt="تنظيف المنازل"></div>
                     <div class="p-6">
                         <span class="inline-block bg-accent-100 text-accent-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">متميز</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف المنازل</h3>
@@ -207,7 +207,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-44 bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-6xl">🏢</div>
+                    <div class="h-52 bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-6xl"><img src="/assets/images/شركات.webp" alt="تنظيف الشركات"></div>
                     <div class="p-6">
                         <span class="inline-block bg-amber-100 text-amber-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">احترافي</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف الشركات</h3>
@@ -224,7 +224,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-44 bg-gradient-to-br from-violet-100 to-violet-200 flex items-center justify-center text-6xl">🛡️</div>
+                    <div class="h-52 bg-gradient-to-br from-violet-100 to-violet-200 flex items-center justify-center text-6xl"><img src="/assets/images/خزانات2.webp" alt="تنظيف خزانات"></div>
                     <div class="p-6">
                         <span class="inline-block bg-violet-100 text-violet-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">ضروري</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">التعقيم والتطهير</h3>
@@ -426,10 +426,10 @@
                         <i class="fas fa-info-circle"></i> من نحن
                     </div>
                     <h2 class="font-tajawal text-4xl lg:text-5xl font-black text-slate-900 mb-5">
-                        شركة <span class="text-primary-600">شركة كلين للتنظيف بالرياض اونلاين</span><br>للتنظيف المتكامل
+                        شركة <span class="text-primary-600"> كلين للتنظيف بالرياض اونلاين</span><br>للتنظيف المتكامل
                     </h2>
                     <p class="text-base text-slate-500 leading-relaxed mb-4">
-                        تأسست شركة شركة كلين للتنظيف بالرياض اونلاين عام 2010 لتكون رائدة في مجال خدمات النظافة والتعقيم بالمملكة العربية السعودية. نفخر بفريق من أكثر من 200 متخصص مدرب على أعلى المستويات.
+                        تأسست شركة كلين للتنظيف بالرياض اونلاين عام 2010 لتكون رائدة في مجال خدمات النظافة والتعقيم بالمملكة العربية السعودية. نفخر بفريق من أكثر من 200 متخصص مدرب على أعلى المستويات.
                     </p>
                     <p class="text-base text-slate-500 leading-relaxed mb-8">
                         نؤمن بأن البيئة النظيفة حق أساسي لكل أسرة وعمل، لذلك نسعى دائمًا لتقديم أفضل الخدمات بأسعار في متناول الجميع مع ضمان الجودة التامة.
@@ -468,8 +468,8 @@
             </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="group bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all reveal">
-                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl relative">
-                        💧
+                    <div class="h-64 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl relative">
+                        <img src="/assets/images/خزانات.webp" alt="تنظيف الخزانات">
                         <span class="absolute bottom-3 right-3 bg-white text-primary-700 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm">الخزانات</span>
                     </div>
                     <div class="p-6">
@@ -483,8 +483,8 @@
                     </div>
                 </div>
                 <div class="group bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all reveal">
-                    <div class="h-48 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl relative">
-                        🏡
+                    <div class="h-64 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl relative">
+                        <img src="/assets/images/منازل.webp" alt="تنظيف منازل">
                         <span class="absolute bottom-3 right-3 bg-white text-accent-700 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm">نصائح</span>
                     </div>
                     <div class="p-6">
@@ -498,8 +498,8 @@
                     </div>
                 </div>
                 <div class="group bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all reveal">
-                    <div class="h-48 bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-6xl relative">
-                        🛡️
+                    <div class="h-64 bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-6xl relative">
+                        <img src="/assets/images/خزانات2.webp" alt="تنظيف خزانات">
                         <span class="absolute bottom-3 right-3 bg-white text-amber-700 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm">التعقيم</span>
                     </div>
                     <div class="p-6">
@@ -608,7 +608,7 @@
                 </div>
                 <!-- Contact Form -->
                 <div class="bg-slate-50 rounded-3xl p-8 border border-slate-200 reveal">
-                    <h3 class="text-xl font-extrabold text-slate-900 mb-6">أرسل لنا رسالة ✉️</h3>
+                    <h3 class="text-xl font-extrabold text-slate-900 mb-6">أرسل لنا رسالة  <i class="fas fa-envelope text-primary-500"> </i></h3>
                     <div class="space-y-5">
                         <div>
                             <label class="block text-sm font-extrabold text-slate-700 mb-2">الاسم الكريم *</label>
@@ -767,7 +767,7 @@
             </div>
             <!-- Bottom -->
             <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-white/40 font-semibold">
-                <span>© 2025 شركة شركة كلين للتنظيف بالرياض اونلاين للتنظيف المتكامل. جميع الحقوق محفوظة.</span>
+                <span>© 2026 شركة شركة كلين للتنظيف بالرياض اونلاين للتنظيف المتكامل. جميع الحقوق محفوظة.</span>
                 <span>صُمِّم بـ ❤️ لخدمتكم | <a href="#" class="text-primary-400 no-underline hover:text-primary-300 transition-colors">سياسة الخصوصية</a></span>
             </div>
         </div>
@@ -783,6 +783,6 @@
             <i class="fas fa-phone"></i>
         </a>
     </div>
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
