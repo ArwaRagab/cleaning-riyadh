@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="شركة كلين للتنظيف بالرياض - أفضل شركة لتنظيف وتعقيم خزانات المياه. تنظيف خزانات أرضية وعلوية، تعقيم، فحص جودة المياه، بأحدث التقنيات ومواد آمنة معتمدة." />
+    <meta name="keywords" content="تنظيف خزانات, شركة تنظيف خزانات بالرياض, تعقيم خزانات المياه, شركة كلين, خزانات أرضية, خزانات علوية" />
+    <title>شركة كلين للتنظيف بالرياض — أفضل شركة لتنظيف خزانات المياه | تعقيم وآمان</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preload" href="/assets/css/style.css" as="style">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preload" href="/output.css" as="style">
+    <link rel="stylesheet" href="/output.css">
+</head>
+<body class="bg-white text-slate-800 overflow-x-hidden">
+    <!-- NAVBAR (identical structure, kept as original) -->
+    <nav id="navbar" class="fixed top-0 right-0 left-0 z-50 glass border-b border-slate-100 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-[72px]">
+            <a href="#home" class="flex items-center gap-3 group no-underline">
+                <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
+                    <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
+                </div>
+                <div>
+                    <span class="block text-2xl font-black text-primary-600 leading-none font-tajawal tracking-tight">شركة كلين للتنظيف بالرياض اونلاين</span>
+                    <span class="block text-[11px] text-slate-400 font-semibold mt-0.5">لخدمات النظافة المتكاملة</span>
+                </div>
+            </a>
+            <ul class="hidden md:flex items-center gap-1 list-none">
+                <li><a href="/index.html" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline active">الرئيسية</a></li>
+                <li><a href="/services/" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">خدماتنا</a></li>
+                <li><a href="/index.html#about" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">من نحن</a></li>
+                <li><a href="/blogs/" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">المدونة</a></li>
+                <li><a href="/index.html#faq" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">الأسئلة الشائعة</a></li>
+                <li><a href="/index.html#contact" class="px-5 py-2.5 rounded-full bg-gradient-to-l from-primary-600 to-primary-500 text-white text-[15px] font-bold shadow-cta hover:-translate-y-0.5 hover:shadow-lg transition-all no-underline">تواصل معنا</a></li>
+            </ul>
+            <button id="hamburgerBtn" onclick="toggleMenu()" class="md:hidden flex flex-col gap-[5px] p-2 cursor-pointer bg-transparent border-none" aria-label="القائمة">
+                <i class="fa-solid fa-bars text-slate-700 text-3xl"></i>
+            </button>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="hidden fixed top-[72px] right-0 left-0 z-40 bg-white border-b border-slate-100 shadow-xl px-6 py-4 flex-col gap-1">
+        <a href="/index.html" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> الرئيسية</a>
+        <a href="/services/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> خدماتنا</a>
+        <a href="/index.html#about" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> من نحن</a>
+        <a href="/blogs/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> المدونة</a>
+        <a href="/index.html#faq" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> الأسئلة الشائعة</a>
+        <a href="/index.html#contact" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-white bg-gradient-to-l from-primary-600 to-primary-500 text-center mt-2 no-underline"> تواصل معنا</a>
+    </div>
+    <!-- ARTICLE HERO / BREADCRUMB -->
+    <div class="article-hero fade-up">
+        <div class="article-hero-inner">
+            <div class="breadcrumb">
+                <a href="/index.html"><i class="fas fa-home"></i> الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <a href="/blogs/">المدونة</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>تنظيف خزانات المياه</span>
+            </div>
+            <div class="article-tag">
+                <i class="fas fa-tint"></i> صحة المياه
+            </div>
+            <h1>شركة كلين للتنظيف بالرياض — أفضل شركة لتنظيف خزانات المياه</h1>
+            <div class="article-meta">
+                <span><i class="fas fa-user"></i> فريق كلين المتخصص</span>
+                <span><i class="fas fa-calendar"></i> 27 أبريل 2026</span>
+                <span><i class="fas fa-clock"></i> 8 دقائق قراءة</span>
+                <span><i class="fas fa-eye"></i> 3,950 مشاهدة</span>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN LAYOUT -->
+    <div class="main-layout">
+        <!-- ===== ARTICLE (NEW CONTENT: خزانات المياه) ===== -->
+        <article class="article-content fade-up fade-up-1">
+            <div class="article-img-hero">
+                <img src="/assets/images/خزانات.webp" alt="تنظيف خزانات المياه بالرياض" onerror="this.parentElement.innerHTML='💧'">
+            </div>
+            <div class="article-body">
+                <p>
+                    في ظل ارتفاع درجات الحرارة الشديدة التي تشهدها مدينة الرياض طوال فصول السنة، يُعدّ خزان المياه الركيزة الأساسية لتخزين المياه النظيفة داخل المنازل والمنشآت التجارية والصناعية. غير أن إهمال تنظيف هذه الخزانات بشكل دوري يُشكّل خطراً جسيماً على الصحة العامة، إذ تتراكم فيها الطحالب والبكتيريا والرواسب العضوية والمعدنية التي تُلوث المياه وتُهدد سلامة الأسرة بأكملها.
+                </p>
+                <p>
+                    من هذا المنطلق، برزت <strong>شركة كلين للتنظيف بالرياض</strong> بوصفها المرجع الأول والمعيار الذهبي في مجال تنظيف وتعقيم خزانات المياه، جامعةً بين التقنيات الحديثة والكفاءة البشرية العالية، لتُقدم خدمة متكاملة لا تُضاهى في جودتها وأمانها ودقتها.
+                </p>
+                <div class="info-box">
+                    <i class="fas fa-shield-virus"></i>
+                    <p>تشير الدراسات الصحية إلى أن خزانات المياه غير المُنظَّفة تحتوي على تركيزات مرتفعة من البكتيريا الضارة (كالكوليفورم) التي قد تُسبب أمراضاً خطيرة كالإسهال الحاد والتيفوئيد، وتُشكل خطراً مضاعفاً على الأطفال وكبار السن.</p>
+                </div>
+                <h2>لماذا تنظيف الخزان ضرورة لا رفاهية؟</h2>
+                <p>كثير من الناس يتساءل: هل يحتاج الخزان فعلاً إلى تنظيف دوري؟ والإجابة العلمية القاطعة: نعم، وبشكل منتظم لا يقل عن مرة إلى مرتين في السنة على أقل تقدير. إليك الأسباب الجوهرية:</p>
+                <ul>
+                    <li><strong>الرواسب المعدنية:</strong> تتسرب إلى الخزانات رواسب الحديد والكالسيوم والمنغنيز من شبكات الأنابيب القديمة.</li>
+                    <li><strong>الطحالب والأتربة:</strong> الطحالب الخضراء والبنية الناجمة عن تعرض الخزانات للضوء، والأتربة الدقيقة التي تتسلل عبر فتحات التهوية أو الأغطية غير المُحكمة.</li>
+                    <li><strong>مناخ الرياض القاسي:</strong> درجات الحرارة المرتفعة تُسرِّع تكاثر الملوثات وتضاعفها خلال أسابيع قليلة.</li>
+                    <li><strong>المخاطر الصحية:</strong> بكتيريا الكوليفورم والإشريكية القولونية تسبب أمراضاً خطيرة في الجهاز الهضمي.</li>
+                </ul>
+                <h2>نبذة عن شركة كلين للتنظيف بالرياض</h2>
+                <p>
+                    تأسست شركة كلين للتنظيف بالرياض منذ أكثر من خمس عشرة سنة، انطلاقاً من رؤية واضحة وهدف محدد: تقديم خدمة تنظيف وتعقيم خزانات المياه وفق أعلى المعايير الصحية والتقنية المعتمدة، وبأسعار في متناول جميع فئات المجتمع. وعلى مدار هذه السنوات، راكمت الشركة خبرة واسعة شملت آلاف الخزانات في المنازل والفلل والمجمعات السكنية والمستشفيات والمصانع والفنادق والجهات الحكومية.
+                </p>
+                <p>
+                    تتميز الشركة بامتلاكها فريقاً من الفنيين المُدرَّبين على أعلى مستوى، والمُجهَّزين بأحدث معدات الضخ والشفط والتعقيم، مع الالتزام الكامل باستخدام مواد كيميائية مُعتمدة من وزارة الصحة السعودية، آمنة تماماً على صحة الإنسان ولا تُخلّف أي أثر ضار بعد الانتهاء من العمل.
+                </p>
+                <div class="services-mini">
+                    <div class="svc-mini-card"><i class="fas fa-water"></i><span>خزانات أرضية وعلوية</span></div>
+                    <div class="svc-mini-card"><i class="fas fa-flask"></i><span>فحص جودة المياه</span></div>
+                    <div class="svc-mini-card"><i class="fas fa-tools"></i><span>صيانة وإصلاح الخزانات</span></div>
+                    <div class="svc-mini-card"><i class="fas fa-filter"></i><span>تركيب فلاتر المياه</span></div>
+                </div>
+                <h2>الخدمات المقدمة</h2>
+                <p>تقدم شركة كلين للتنظيف بالرياض باقة متكاملة من الخدمات تلبي كل الاحتياجات:</p>
+                <ul>
+                    <li><strong>تنظيف وتعقيم الخزانات:</strong> إزالة الرواسب والطحالب والبكتيريا بالكامل، وتعقيم الجدران الداخلية بمحاليل مُعتمدة تضمن القضاء التام على الكائنات الدقيقة الضارة.</li>
+                    <li><strong>فحص جودة المياه:</strong> تحليل عينات المياه قبل وبعد عملية التنظيف، وإصدار تقرير صحي مُفصَّل يُبيّن نسب التلوث والتحسن الحاصل.</li>
+                    <li><strong>صيانة الخزانات:</strong> إصلاح التسريبات وتغيير الصمامات وفحص طبقات العزل والحماية الداخلية من الصدأ والتآكل.</li>
+                    <li><strong>تركيب فلاتر المياه:</strong> تركيب أنظمة التنقية المناسبة للمنازل والمنشآت التجارية لضمان نقاء المياه باستمرار وتصفيتها من الشوائب والكلور الزائد.</li>
+                    <li><strong>تنظيف الخزانات الأرضية والعلوية:</strong> خبرة راسخة في التعامل مع جميع أنواع الخزانات بمختلف السعات والمواصفات والمواد، سواء أكانت بلاستيكية أم خرسانية أم فيبرجلاس.</li>
+                    <li><strong>خدمات المنشآت الكبرى:</strong> حلول متكاملة ومُصمَّمة خصيصاً للمستشفيات والمصانع والفنادق والمجمعات السكنية الكبيرة، مع التنسيق المسبق لضمان عدم تعطيل سير العمل.</li>
+                </ul>
+                <h2>خطوات العمل المتبعة</h2>
+                <p>تعمل شركة كلين وفق منهجية علمية مُنظَّمة ومُختبَرة تضمن النتائج المثلى في كل زيارة:</p>
+                <div class="steps-grid">
+                    <div class="step-card"><div class="step-num">1</div><div class="step-content"><h4>المعاينة والتقييم</h4><p>تحديد حجم التلوث ونوعه وإعداد خطة العمل المناسبة.</p></div></div>
+                    <div class="step-card"><div class="step-num">2</div><div class="step-content"><h4>تفريغ الخزان</h4><p>ضخ المياه خارج الخزان بأجهزة شفط قوية.</p></div></div>
+                    <div class="step-card"><div class="step-num">3</div><div class="step-content"><h4>التنظيف الميكانيكي</h4><p>إزالة الترسب والطحالب بفرش وأدوات متخصصة.</p></div></div>
+                    <div class="step-card"><div class="step-num">4</div><div class="step-content"><h4>الغسيل بالضغط العالي</h4><p>إزالة البقايا الدقيقة من جميع الأسطح.</p></div></div>
+                    <div class="step-card"><div class="step-num">5</div><div class="step-content"><h4>التعقيم والتطهير</h4><p>محاليل معتمدة من وزارة الصحة.</p></div></div>
+                    <div class="step-card"><div class="step-num">6</div><div class="step-content"><h4>الشطف النهائي وإعادة التشغيل</h4><p>التخلص من أي أثر كيميائي وإعادة الملء.</p></div></div>
+                    <div class="step-card"><div class="step-num">7</div><div class="step-content"><h4>إصدار شهادة التنظيف</h4><p>تقرير رسمي وتحديد الموعد القادم.</p></div></div>
+                </div>
+                <div class="warn-box">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>تنبيه: إهمال تنظيف خزانات المياه لمدة تزيد عن 6 أشهر في المناخ الحار للرياض يزيد من خطر نمو البكتيريا الضارة بنسبة تتجاوز 70%، وقد يؤثر على طعم ورائحة المياه ولونها.</p>
+                </div>
+                <h2>مميزات شركة كلين عن غيرها</h2>
+                <ul>
+                    <li><strong>الخبرة التراكمية:</strong> أكثر من 15 سنة في السوق السعودية، وفهم عميق لطبيعة المياه المحلية وتحديات مناخ الرياض.</li>
+                    <li><strong>الكوادر المُؤهَّلة:</strong> جميع الفنيين حاصلون على تدريب متخصص ومعتمدون وفق معايير السلامة المهنية.</li>
+                    <li><strong>التقنيات الحديثة:</strong> أحدث معدات التنظيف بالضغط العالي وأجهزة الشفط الصناعية وأدوات التحليل الميداني.</li>
+                    <li><strong>الشفافية الكاملة:</strong> لا أسعار مخفية، عرض سعر مُفصَّل قبل البدء.</li>
+                    <li><strong>الالتزام بالمواعيد:</strong> خدمة الطوارئ على مدار الساعة واحترام وقت العميل.</li>
+                    <li><strong>ضمان الجودة:</strong> إعادة الزيارة مجاناً في حال عدم الرضا.</li>
+                    <li><strong>التغطية الجغرافية الشاملة:</strong> جميع أحياء ومناطق الرياض.</li>
+                </ul>
+                <h2>الفئات المستفيدة من الخدمة</h2>
+                <p>تخدم شركة كلين للتنظيف بالرياض طيفاً واسعاً من العملاء: أصحاب المنازل والفلل والشقق، المجمعات السكنية والأبراج، المستشفيات والمراكز الصحية، الفنادق والمطاعم، المصانع والمستودعات، المدارس والجامعات والمرافق الحكومية.</p>
+                <div class="article-cta">
+                    <h3 style="color: white;"><i class="fas fa-tint text-white"></i> مياه نقية لعائلتك</h3>
+                    <p style="color: white;">لا تترك صحة أسرك للصدفة. احجز خدمة تنظيف وتعقيم خزانات المياه مع شركة كلين اليوم، واحصل على تقرير مخبري مجاني مع أول زيارة.</p>
+                    <div class="article-cta-btns">
+                        <a href="/index.html#contact" class="btn-white"><i class="fas fa-calendar-check"></i> احجز الآن</a>
+                        <a href="https://wa.me/966592425757" class="btn-outline-white"><i class="fab fa-whatsapp"></i> واتساب مباشر</a>
+                    </div>
+                </div>
+                <h2>نصائح للمحافظة على نظافة الخزان بين الزيارات</h2>
+                <ul>
+                    <li>احرص على إحكام غطاء الخزان دائماً لمنع دخول الحشرات والأتربة.</li>
+                    <li>تجنب وضع الخزانات في أماكن مُعرَّضة لأشعة الشمس المباشرة قدر الإمكان.</li>
+                    <li>افحص الخزان كل ثلاثة أشهر بصرياً للتأكد من غياب أي تسريبات أو تغير في لون الماء أو رائحته.</li>
+                    <li>تجنب الاستعانة بعمالة غير مُدرَّبة أو شركات غير موثوقة قد تستخدم مواد كيميائية غير مُعتمدة.</li>
+                </ul>
+                <h2>الأسئلة الشائعة (FAQ)</h2>
+                <div style="display:flex; flex-direction:column; gap:1rem;">
+                    <div style="background:#f8fafc; border-right:3px solid var(--primary-500); padding:0.8rem 1rem; border-radius:1rem;">
+                        <p style="font-weight:800; margin-bottom:0.3rem;">كم مرة ينبغي تنظيف الخزان؟</p>
+                        <p>يُوصى بتنظيف الخزان مرتين في السنة في الرياض نظراً للمناخ الحار، أو كلما لاحظت تغيراً في طعم المياه أو لونها أو رائحتها.</p>
+                    </div>
+                    <div style="background:#f8fafc; border-right:3px solid var(--primary-500); padding:0.8rem 1rem; border-radius:1rem;">
+                        <p style="font-weight:800; margin-bottom:0.3rem;">كم يستغرق تنظيف الخزان؟</p>
+                        <p>يتراوح وقت التنظيف بين ساعتين وأربع ساعات حسب حجم الخزان ودرجة التلوث.</p>
+                    </div>
+                    <div style="background:#f8fafc; border-right:3px solid var(--primary-500); padding:0.8rem 1rem; border-radius:1rem;">
+                        <p style="font-weight:800; margin-bottom:0.3rem;">هل المواد الكيميائية المستخدمة آمنة؟</p>
+                        <p>نعم تماماً؛ جميع المواد مُعتمدة من وزارة الصحة السعودية ولا تُترك أي آثار ضارة بعد الشطف النهائي.</p>
+                    </div>
+                    <div style="background:#f8fafc; border-right:3px solid var(--primary-500); padding:0.8rem 1rem; border-radius:1rem;">
+                        <p style="font-weight:800; margin-bottom:0.3rem;">هل تقدم الشركة خدماتها للخزانات الكبيرة جداً؟</p>
+                        <p>نعم، تمتلك الشركة الطاقم والمعدات اللازمة للتعامل مع الخزانات بجميع أحجامها من الصغيرة المنزلية حتى الكبيرة الصناعية.</p>
+                    </div>
+                    <div style="background:#f8fafc; border-right:3px solid var(--primary-500); padding:0.8rem 1rem; border-radius:1rem;">
+                        <p style="font-weight:800; margin-bottom:0.3rem;">هل تقومون بتحليل المياه قبل وبعد التنظيف؟</p>
+                        <p>نعم، نقدم خدمة فحص جودة المياه في مختبرات معتمدة ونُصدر تقريراً صحياً مفصلاً للعميل.</p>
+                    </div>
+                </div>
+                <div class="article-footer">
+                    <div class="tags">
+                        <span class="tag"># تنظيف خزانات</span>
+                        <span class="tag"># شركة كلين</span>
+                        <span class="tag"># تعقيم خزانات الرياض</span>
+                        <span class="tag"># مياه نقية</span>
+                        <span class="tag"># صحة الأسرة</span>
+                    </div>
+                    <div class="share-row">
+                        <span class="share-label">شارك المقال:</span>
+                        <button class="share-btn tw" title="تويتر"><i class="fab fa-twitter"></i></button>
+                        <button class="share-btn fb" title="فيسبوك"><i class="fab fa-facebook-f"></i></button>
+                        <button class="share-btn wa" title="واتساب" onclick="window.open('https://wa.me/966592425757?text=أفضل شركة تنظيف خزانات بالرياض - شركة كلين')"><i class="fab fa-whatsapp"></i></button>
+                    </div>
+                </div>
+                <div class="author-card">
+                    <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
+                        <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
+                    </div>
+                    <div>
+                        <div class="author-name">فريق كلين المتخصص</div>
+                        <div class="author-role">خبراء تنظيف وتعقيم الخزانات</div>
+                        <div class="author-bio">أكثر من 15 عاماً من الخبرة في مجال تنظيف وتعقيم خزانات المياه بمدينة الرياض، باستخدام أحدث التقنيات والمواد المعتمدة، وخدمة تغطي كافة الأحياء.</div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ===== SIDEBAR (identical as original) ===== -->
+        <aside class="sidebar fade-up fade-up-2">
+            <div class="sidebar-cta">
+                <div class="sidebar-cta-icon"><i class="fas fa-broom text-white"></i></div>
+                <h3>احجز خدمة التنظيف</h3>
+                <p>فريقنا جاهز لخدمتك الآن. تواصل معنا للحصول على عرض مخصص</p>
+                <a href="/index.html#contact" class="sidebar-cta-btn"><i class="fas fa-calendar-check"></i> احجز الآن</a>
+                <a href="https://wa.me/966592425757" class="sidebar-cta-wa"><i class="fab fa-whatsapp"></i> واتساب مباشر</a>
+            </div>
+            <div class="sidebar-card">
+                <div class="sidebar-title"><i class="fas fa-star"></i> تقييم العملاء</div>
+                <div style="text-align:center; padding: 8px 0;">
+                    <div class="rating-stars">★★★★★</div>
+                    <div style="font-size:32px; font-weight:900; color:var(--slate-900); margin:8px 0;">4.9</div>
+                    <div class="rating-text">بناءً على +1,500 تقييم موثق</div>
+                    <div style="margin-top:16px; display:flex; flex-direction:column; gap:6px;">
+                        <div style="display:flex; align-items:center; gap:8px; font-size:12px; color:var(--slate-500);">
+                            <span style="min-width:20px; font-weight:700;">5★</span>
+                            <div style="flex:1; height:6px; border-radius:999px; background:var(--slate-100); overflow:hidden;"><div style="width:90%; height:100%; background:#f59e0b; border-radius:999px;"></div></div>
+                            <span>90%</span>
+                        </div>
+                        <div style="display:flex; align-items:center; gap:8px; font-size:12px; color:var(--slate-500);">
+                            <span style="min-width:20px; font-weight:700;">4★</span>
+                            <div style="flex:1; height:6px; border-radius:999px; background:var(--slate-100); overflow:hidden;"><div style="width:7%; height:100%; background:#f59e0b; border-radius:999px; opacity:0.6;"></div></div>
+                            <span>7%</span>
+                        </div>
+                        <div style="display:flex; align-items:center; gap:8px; font-size:12px; color:var(--slate-500);">
+                            <span style="min-width:20px; font-weight:700;">3★</span>
+                            <div style="flex:1; height:6px; border-radius:999px; background:var(--slate-100); overflow:hidden;"><div style="width:3%; height:100%; background:#f59e0b; border-radius:999px; opacity:0.4;"></div></div>
+                            <span>3%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-card">
+                <div class="sidebar-title"><i class="fas fa-book-open"></i> مقالات ذات صلة</div>
+                <div class="related-post"><div class="related-thumb">🏠</div><div><div class="related-title">دليلك الشامل لتنظيف المنازل بالرياض</div><div class="related-date"><i class="fas fa-calendar" style="font-size:10px;"></i> 15 مارس 2026</div></div></div>
+                <div class="related-post"><div class="related-thumb">🧴</div><div><div class="related-title">أهمية التعقيم الدوري لحماية أسرتك</div><div class="related-date"><i class="fas fa-calendar" style="font-size:10px;"></i> 18 أبريل 2026</div></div></div>
+                <div class="related-post"><div class="related-thumb">🏢</div><div><div class="related-title">كيف تختار شركة تنظيف مكاتب موثوقة؟</div><div class="related-date"><i class="fas fa-calendar" style="font-size:10px;"></i> 5 أبريل 2026</div></div></div>
+            </div>
+            <div class="sidebar-card">
+                <div class="sidebar-title"><i class="fas fa-phone"></i> تواصل معنا</div>
+                <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div><div><div class="contact-label">هاتف</div><a href="tel:0592425757" class="contact-val" style="color:var(--slate-800);">0592425757</a></div></div>
+                <div class="contact-item"><div class="contact-icon" style="background:#dcfce7; color:#16a34a;"><i class="fab fa-whatsapp"></i></div><div><div class="contact-label">واتساب</div><a href="https://wa.me/966592425757" class="contact-val" style="color:var(--slate-800);">تحدث معنا الآن</a></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><div class="contact-label">البريد</div><a href="mailto:info@clean.online" class="contact-val" style="color:var(--slate-800);">info@clean.online</a></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fas fa-clock"></i></div><div><div class="contact-label">ساعات العمل</div><div class="contact-val">السبت – الخميس: ٧ص – ١١م</div></div></div>
+            </div>
+            <div class="sidebar-card">
+                <div class="sidebar-title"><i class="fas fa-broom"></i> خدماتنا</div>
+                <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
+                    <li><a href="/services/" style="display:flex; align-items:center; gap:10px; padding:10px; border-radius:10px; border:1px solid var(--slate-200); font-size:14px; font-weight:700; color:var(--slate-700); background:var(--slate-50);"><i class="fas fa-home" style="color:var(--primary-500);"></i> تنظيف المنازل</a></li>
+                    <li><a href="/services/" style="display:flex; align-items:center; gap:10px; padding:10px; border-radius:10px; border:1px solid var(--slate-200); font-size:14px; font-weight:700; color:var(--slate-700); background:var(--slate-50);"><i class="fas fa-tint" style="color:var(--primary-500);"></i> تنظيف الخزانات</a></li>
+                    <li><a href="/services/" style="display:flex; align-items:center; gap:10px; padding:10px; border-radius:10px; border:1px solid var(--slate-200); font-size:14px; font-weight:700; color:var(--slate-700); background:var(--slate-50);"><i class="fas fa-building" style="color:var(--primary-500);"></i> تنظيف الشركات</a></li>
+                    <li><a href="/services/" style="display:flex; align-items:center; gap:10px; padding:10px; border-radius:10px; border:1px solid var(--slate-200); font-size:14px; font-weight:700; color:var(--slate-700); background:var(--slate-50);"><i class="fas fa-shield-alt" style="color:var(--primary-500);"></i> التعقيم والتطهير</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <!-- FOOTER (identical to original) -->
+    <footer class="bg-footer-dark text-white/70">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-16 pb-6">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <div class="lg:col-span-1">
+                    <a href="#home" class="flex items-center gap-3 no-underline mb-5">
+                        <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
+                            <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
+                        </div>
+                        <div>
+                            <span class="block text-xl font-black text-primary-400 font-tajawal">شركة كلين للتنظيف بالرياض اونلاين</span>
+                            <span class="block text-[11px] text-white/40 mt-0.5">لخدمات النظافة المتكاملة</span>
+                        </div>
+                    </a>
+                    <p class="text-sm leading-relaxed mb-5">شركة كلين للتنظيف بالرياض اونلاين رائدة في خدمات التنظيف والتعقيم منذ 2010. نلتزم بأعلى مستويات الجودة لعملائنا الكرام.</p>
+                    <div class="flex gap-2">
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/8 flex items-center justify-center text-sm hover:bg-primary-600 hover:text-white transition-all no-underline text-white/60"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/8 flex items-center justify-center text-sm hover:bg-pink-500 hover:text-white transition-all no-underline text-white/60"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/8 flex items-center justify-center text-sm hover:bg-blue-700 hover:text-white transition-all no-underline text-white/60"><i class="fab fa-facebook text-xl"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/8 flex items-center justify-center text-sm hover:bg-yellow-400 hover:text-slate-900 transition-all no-underline text-white/60"><i class="fab fa-snapchat text-xl"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/8 flex items-center justify-center text-sm hover:bg-slate-800 hover:text-white transition-all no-underline text-white/60"><i class="fab fa-tiktok text-xl"></i></a>
+                    </div>
+                </div>
+                <div><h4 class="text-base font-black text-white mb-4 pb-2 border-b border-white/10">روابط سريعة</h4><ul class="space-y-2 list-none"><li><a href="#home" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> الرئيسية</a></li><li><a href="#about" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> من نحن</a></li><li><a href="#services" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> خدماتنا</a></li><li><a href="#blog" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> المدونة</a></li><li><a href="#contact" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> تواصل معنا</a></li></ul></div>
+                <div><h4 class="text-base font-black text-white mb-4 pb-2 border-b border-white/10">خدماتنا</h4><ul class="space-y-2 list-none"><li><a href="#services" class="text-sm font-semibold text-white/60 hover:text-accent-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> تنظيف الخزانات</a></li><li><a href="#services" class="text-sm font-semibold text-white/60 hover:text-accent-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> تنظيف المنازل</a></li><li><a href="#services" class="text-sm font-semibold text-white/60 hover:text-accent-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> تنظيف الشركات</a></li><li><a href="#services" class="text-sm font-semibold text-white/60 hover:text-accent-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> التعقيم والتطهير</a></li></ul></div>
+                <div><h4 class="text-base font-black text-white mb-4 pb-2 border-b border-white/10">تواصل معنا</h4><ul class="space-y-3 list-none"><li><a href="tel:0592425757" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-phone text-primary-400"></i> 0592425757</a></li><li><a href="https://wa.me/966592425757" class="text-sm font-semibold text-white/60 hover:text-green-400 no-underline transition-colors flex items-center gap-2"><i class="fab fa-whatsapp text-green-400"></i> واتساب</a></li><li><a href="mailto:info@clean.online" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-envelope text-primary-400"></i> info@clean.online</a></li><li><span class="text-sm font-semibold text-white/60 flex items-center gap-2"><i class="fas fa-map-marker-alt text-primary-400"></i> الرياض، حي النزهة</span></li></ul></div>
+            </div>
+            <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-white/40 font-semibold">
+                <span>© 2026 شركة كلين للتنظيف بالرياض اونلاين. جميع الحقوق محفوظة.</span>
+                <span>صُمِّم بـ <i class="fas fa-heart text-red-400"></i> لخدمتكم | <a href="#" class="text-primary-400 no-underline hover:text-primary-300 transition-colors">سياسة الخصوصية</a></span>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed bottom-8 left-8 z-50 flex flex-col gap-4">
+        <a href="https://wa.me/966592425757" target="_blank" aria-label="واتساب" class="w-14 h-14 rounded-full bg-[#25d366] flex items-center justify-center text-white text-2xl shadow-xl hover:scale-110 transition-transform animate-pulse-wa no-underline"><i class="fab fa-whatsapp text-3xl"></i></a>
+        <a href="tel:0592425757" target="_blank" aria-label="اتصال مباشر" class="w-14 h-14 rounded-full bg-primary-600 flex items-center justify-center text-white text-2xl shadow-xl hover:scale-110 transition-transform animate-pulse-wa no-underline"><i class="fas fa-phone"></i></a>
+    </div>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
