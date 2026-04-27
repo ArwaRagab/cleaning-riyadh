@@ -1,5 +1,5 @@
 {
-  "name": "clean-tank",
+  "name": "cleaning-riyadh",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArwaRagab/clean-tank.git"
+    "url": "git+https://github.com/ArwaRagab/cleaning-riyadh.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/ArwaRagab/clean-tank/issues"
+    "url": "https://github.com/ArwaRagab/cleaning-riyadh/issues"
   },
-  "homepage": "https://github.com/ArwaRagab/clean-tank#readme",
+  "homepage": "https://github.com/ArwaRagab/cleaning-riyadh#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.27",
     "postcss": "^8.5.8",

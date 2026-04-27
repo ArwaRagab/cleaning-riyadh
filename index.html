@@ -46,7 +46,7 @@
                     <a href="#about" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">من نحن</a>
                 </li>
                 <li>
-                    <a href="#blog" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">المدونة</a>
+                    <a href="/blogs/" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">المدونة</a>
                 </li>
                 <li>
                     <a href="#faq" class="nav-link px-4 py-2 rounded-lg text-[15px] font-semibold text-slate-600 hover:text-primary-600 hover:bg-primary-50 transition-all no-underline">الأسئلة الشائعة</a>
@@ -65,12 +65,12 @@
     </nav>
     <!-- Mobile Menu -->
     <div id="mobileMenu" class="hidden fixed top-[72px] right-0 left-0 z-40 bg-white border-b border-slate-100 shadow-xl px-6 py-4 flex-col gap-1">
-        <a href="#home" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">🏠 الرئيسية</a>
-        <a href="/services/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">🧹 خدماتنا</a>
-        <a href="#about" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">👤 من نحن</a>
-        <a href="#blog" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">📝 المدونة</a>
-        <a href="#faq" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline">❓ الأسئلة الشائعة</a>
-        <a href="#contact" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-white bg-gradient-to-l from-primary-600 to-primary-500 text-center mt-2 no-underline">📞 تواصل معنا</a>
+        <a href="#home" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> الرئيسية</a>
+        <a href="/services/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> خدماتنا</a>
+        <a href="#about" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> من نحن</a>
+        <a href="/blogs/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> المدونة</a>
+        <a href="#faq" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> الأسئلة الشائعة</a>
+        <a href="#contact" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-white bg-gradient-to-l from-primary-600 to-primary-500 text-center mt-2 no-underline"> تواصل معنا</a>
     </div>
     <!-- HERO -->
     <section id="home" class="relative min-h-screen flex items-center pt-[72px] overflow-hidden bg-hero-mesh">
@@ -170,25 +170,8 @@
                 </h2>
                 <p class="text-lg text-slate-500 max-w-xl leading-relaxed">نوفر لك كل ما تحتاجه من خدمات النظافة تحت سقف واحد مع ضمان الجودة والالتزام بالمواعيد.</p>
             </div>
-            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 <!-- Card 1 -->
-                <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-52 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl"><img src="/assets/images/خزانات.webp" alt="تنظيف الخزانات"></div>
-                    <div class="p-6">
-                        <span class="inline-block bg-primary-100 text-primary-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">الأكثر طلبًا</span>
-                        <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف الخزانات</h3>
-                        <p class="text-sm text-slate-500 leading-relaxed mb-4">تنظيف وتعقيم خزانات المياه بأحدث الأجهزة لضمان مياه نظيفة وآمنة لعائلتك.</p>
-                        <ul class="space-y-1.5 mb-5">
-                            <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>شفط الرواسب والترسبات</li>
-                            <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>تعقيم بمواد معتمدة صحيًا</li>
-                            <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>فحص شامل للخزان</li>
-                        </ul>
-                        <a href="#contact" class="w-full flex items-center justify-center gap-2 bg-primary-50 text-primary-600 font-bold text-sm py-2.5 rounded-full hover:bg-primary-600 hover:text-white transition-all no-underline">
-                            <i class="fas fa-arrow-left"></i> اطلب الخدمة
-                        </a>
-                    </div>
-                </div>
-                <!-- Card 2 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
                     <div class="h-52 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl"><img src="/assets/images/منازل.webp" alt="تنظيف المنازل"></div>
                     <div class="p-6">
@@ -201,6 +184,23 @@
                             <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>تلميع الأرضيات</li>
                         </ul>
                         <a href="#contact" class="w-full flex items-center justify-center gap-2 bg-accent-50 text-accent-700 font-bold text-sm py-2.5 rounded-full hover:bg-accent-600 hover:text-white transition-all no-underline">
+                            <i class="fas fa-arrow-left"></i> اطلب الخدمة
+                        </a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
+                    <div class="h-52 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl"><img src="/assets/images/خزانات.webp" alt="تنظيف الخزانات"></div>
+                    <div class="p-6">
+                        <span class="inline-block bg-primary-100 text-primary-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">الأكثر طلبًا</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف الخزانات</h3>
+                        <p class="text-sm text-slate-500 leading-relaxed mb-4">تنظيف وتعقيم خزانات المياه بأحدث الأجهزة لضمان مياه نظيفة وآمنة لعائلتك.</p>
+                        <ul class="space-y-1.5 mb-5">
+                            <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>شفط الرواسب والترسبات</li>
+                            <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>تعقيم بمواد معتمدة صحيًا</li>
+                            <li class="flex items-center gap-2 text-sm text-slate-600 font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-accent-500 flex-shrink-0"></span>فحص شامل للخزان</li>
+                        </ul>
+                        <a href="#contact" class="w-full flex items-center justify-center gap-2 bg-primary-50 text-primary-600 font-bold text-sm py-2.5 rounded-full hover:bg-primary-600 hover:text-white transition-all no-underline">
                             <i class="fas fa-arrow-left"></i> اطلب الخدمة
                         </a>
                     </div>
@@ -239,6 +239,11 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="flex justify-center reveal">
+                <a href="/services/" class="inline-flex items-center gap-2 bg-primary-600 text-white font-bold text-sm py-2.5 px-8 rounded-full  shadow-cta hover:-translate-y-1 hover:shadow-lg duration-300 transition-all no-underline">
+                    <i class="fas fa-arrow-left"></i> المزيد من الخدمات
+                </a>
             </div>
         </div>
     </section>
@@ -716,9 +721,11 @@
                 <!-- Brand -->
                 <div class="lg:col-span-1">
                     <a href="#home" class="flex items-center gap-3 no-underline mb-5">
-                        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center text-xl text-white">🧹</div>
+                        <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
+                            <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
+                        </div>
                         <div>
-                            <span class="block text-2xl font-black text-white font-tajawal">شركة كلين للتنظيف بالرياض اونلاين</span>
+                            <span class="block text-xl font-black text-primary-400 font-tajawal">شركة كلين للتنظيف بالرياض اونلاين</span>
                             <span class="block text-[11px] text-white/40 mt-0.5">لخدمات النظافة المتكاملة</span>
                         </div>
                     </a>
@@ -737,11 +744,11 @@
                 <div>
                     <h4 class="text-base font-black text-white mb-4 pb-2 border-b border-white/10">روابط سريعة</h4>
                     <ul class="space-y-2 list-none">
-                        <li><a href="#home"     class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> الرئيسية</a></li>
-                        <li><a href="#about"    class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> من نحن</a></li>
+                        <li><a href="#home" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> الرئيسية</a></li>
+                        <li><a href="#about" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> من نحن</a></li>
                         <li><a href="#services" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> خدماتنا</a></li>
-                        <li><a href="#blog"     class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> المدونة</a></li>
-                        <li><a href="#contact"  class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> تواصل معنا</a></li>
+                        <li><a href="#blog" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> المدونة</a></li>
+                        <li><a href="#contact" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-chevron-left text-xs"></i> تواصل معنا</a></li>
                     </ul>
                 </div>
                 <!-- Services -->
@@ -758,9 +765,9 @@
                 <div>
                     <h4 class="text-base font-black text-white mb-4 pb-2 border-b border-white/10">تواصل معنا</h4>
                     <ul class="space-y-3 list-none">
-                        <li><a href="tel:0592425757"              class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-phone text-primary-400"></i> 059 242 5757</a></li>
-                        <li><a href="https://wa.me/966592425757"  class="text-sm font-semibold text-white/60 hover:text-green-400 no-underline transition-colors flex items-center gap-2"><i class="fab fa-whatsapp text-green-400"></i> واتساب</a></li>
-                        <li><a href="mailto:info@clean.online"        class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-envelope text-primary-400"></i> info@clean.online</a></li>
+                        <li><a href="tel:0592425757" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-phone text-primary-400"></i> 0592425757</a></li>
+                        <li><a href="https://wa.me/966592425757" class="text-sm font-semibold text-white/60 hover:text-green-400 no-underline transition-colors flex items-center gap-2"><i class="fab fa-whatsapp text-green-400"></i> واتساب</a></li>
+                        <li><a href="mailto:info@clean.online" class="text-sm font-semibold text-white/60 hover:text-primary-400 no-underline transition-colors flex items-center gap-2"><i class="fas fa-envelope text-primary-400"></i> info@clean.online</a></li>
                         <li><span class="text-sm font-semibold text-white/60 flex items-center gap-2"><i class="fas fa-map-marker-alt text-primary-400"></i> الرياض، حي النزهة</span></li>
                     </ul>
                 </div>
@@ -768,7 +775,7 @@
             <!-- Bottom -->
             <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-white/40 font-semibold">
                 <span>© 2026 شركة شركة كلين للتنظيف بالرياض اونلاين للتنظيف المتكامل. جميع الحقوق محفوظة.</span>
-                <span>صُمِّم بـ ❤️ لخدمتكم | <a href="#" class="text-primary-400 no-underline hover:text-primary-300 transition-colors">سياسة الخصوصية</a></span>
+                <span>صُمِّم بـ <i class="fas fa-heart text-red-400"></i> لخدمتكم | <a href="#" class="text-primary-400 no-underline hover:text-primary-300 transition-colors">سياسة الخصوصية</a></span>
             </div>
         </div>
     </footer>

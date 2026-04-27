@@ -86,3 +86,14 @@ setTimeout(() => alert_.classList.add('hidden'), 6000);
 function toggleFaq(element) {
     element.parentElement.classList.toggle('active');
 }
+//sidebar scroll
+function toggleMobile() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+}
+function closeMobile() {
+    document.getElementById('mobileMenu').classList.remove('open');
+}
+window.addEventListener('scroll', () => {
+    document.getElementById('navbar').style.boxShadow =
+    window.scrollY > 20 ? '0 4px 20px rgba(0,0,0,0.08)' : 'none';
+});
