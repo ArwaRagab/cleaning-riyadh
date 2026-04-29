@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-image-preview:large">
     <meta name="description" content="شركة شركة كلين للتنظيف بالرياض اونلاين - أفضل شركة تنظيف في الرياض. خدمات تنظيف المنازل والشركات والخزانات والتعقيم بأعلى معايير الجودة." />
     <meta name="keywords" content="تنظيف, شركة تنظيف, تنظيف منازل, تنظيف خزانات, تعقيم, الرياض" />
     <title>خدمات شركة كلين للتنظيف بالرياض اونلاين | أفضل شركة تنظيف في الرياض</title>
@@ -13,12 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/assets/css/all.min.css"></noscript>
     <link rel="preload" href="/assets/css/style.css" as="style">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preload" href="/output.css" as="style">
     <link rel="stylesheet" href="/output.css">
-    <!-- <link rel="stylesheet" href="/assets/css/all.min.css"> -->
 </head>
 <body class="bg-white text-slate-800 overflow-x-hidden">
     <!-- NAVBAR -->
@@ -27,7 +28,7 @@
             <!-- Logo -->
             <a href="#home" class="flex items-center gap-3 group no-underline">
                 <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
-                    <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
+                    <img src="/assets/images/clean-logo.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
                 </div>
                 <div>
                     <span class="block text-2xl font-black text-primary-600 leading-none font-tajawal tracking-tight">شركة كلين للتنظيف بالرياض اونلاين</span>
@@ -61,7 +62,7 @@
         </div>
     </nav>
     <!-- Mobile Menu -->
-    <div id="mobileMenu" class="hidden fixed top-[72px] right-0 left-0 z-40 bg-white border-b border-slate-100 shadow-xl px-6 py-4 flex-col gap-1">
+    <div id="mobileMenu" style="display:none;" class="fixed top-[72px] right-0 left-0 z-40 bg-white border-b border-slate-100 shadow-xl px-6 py-4 gap-1">
         <a href="/index.html#home" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> الرئيسية</a>
         <a href="/index.html#about" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> من نحن</a>
         <a href="/blogs/" onclick="closeMenu()" class="block px-4 py-3 rounded-xl text-base font-bold text-slate-700 hover:bg-primary-50 hover:text-primary-600 transition-all no-underline"> المدونة</a>
@@ -111,7 +112,7 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Card 1 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-52 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl"><img src="/assets/images/منازل.webp" alt="تنظيف المنازل"></div>
+                    <div class="h-52 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-6xl"><img src="/assets/images/houses.webp" alt="تنظيف المنازل"></div>
                     <div class="p-6">
                         <span class="inline-block bg-accent-100 text-accent-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">متميز</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف المنازل</h3>
@@ -133,7 +134,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-52 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl"><img src="/assets/images/خزانات.webp" alt="تنظيف الخزانات"></div>
+                    <div class="h-52 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-6xl"><img src="/assets/images/tanks.webp" alt="تنظيف الخزانات"></div>
                     <div class="p-6">
                         <span class="inline-block bg-primary-100 text-primary-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">الأكثر طلبًا</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف الخزانات</h3>
@@ -155,7 +156,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-52 bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-6xl"><img src="/assets/images/شركات.webp" alt="تنظيف الشركات"></div>
+                    <div class="h-52 bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center text-6xl"><img src="/assets/images/companies.webp" alt="تنظيف الشركات"></div>
                     <div class="p-6">
                         <span class="inline-block bg-amber-100 text-amber-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">احترافي</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">تنظيف الشركات</h3>
@@ -177,7 +178,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="grad-border bg-white rounded-3xl overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-card-hover transition-all duration-300 reveal">
-                    <div class="h-52 bg-gradient-to-br from-violet-100 to-violet-200 flex items-center justify-center text-6xl"><img src="/assets/images/خزانات2.webp" alt="تنظيف خزانات"></div>
+                    <div class="h-52 bg-gradient-to-br from-violet-100 to-violet-200 flex items-center justify-center text-6xl"><img src="/assets/images/tanks2.webp" alt="تنظيف خزانات"></div>
                     <div class="p-6">
                         <span class="inline-block bg-violet-100 text-violet-700 text-xs font-extrabold px-3 py-1 rounded-full mb-3">ضروري</span>
                         <h3 class="text-lg font-extrabold text-slate-900 mb-2">التعقيم والتطهير</h3>
@@ -208,7 +209,7 @@
                 <div class="lg:col-span-1">
                     <a href="/index.html#home" class="flex items-center gap-3 no-underline mb-5">
                         <div class="w-14 h-14 rounded-xl flex items-center justify-content-center justify-center text-xl text-white shadow-md group-hover:scale-105 transition-transform">
-                            <img src="/assets/images/كلين للتنظيف.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
+                            <img src="/assets/images/clean-logo.webp" alt="كلين للتنظيف" class="w-full h-full object-cover rounded-xl">
                         </div>
                         <div>
                             <span class="block text-xl font-black text-primary-400 font-tajawal">شركة كلين للتنظيف بالرياض اونلاين</span>

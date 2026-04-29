@@ -1,36 +1,42 @@
- // Navbar scroll shadow
+// Active link function منفصلة
+function updateActiveLinks() {
+    ['home', 'services', 'features', 'testimonials', 'about', 'blog', 'contact'].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        // بيشمل desktop و mobile links
+        document.querySelectorAll(`.nav-link[href="#${id}"], .nav-link[href$="#${id}"]`).forEach(a => {
+            a.classList.toggle('active', r.top <= 80 && r.bottom > 80);
+        });
+    });
+}
+// Navbar scroll shadow
 window.addEventListener('scroll', () => {
-const nb = document.getElementById('navbar');
-nb.classList.toggle('shadow-md', window.scrollY > 20);
-// Active link
-['home','services','features','testimonials','about','blog','contact'].forEach(id => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    const r = el.getBoundingClientRect();
-    const a = document.querySelector(`.nav-link[href="#${id}"], .nav-link[href$="#${id}"]`);
-    if (a) a.classList.toggle('active', r.top <= 80 && r.bottom > 80);
+    const nb = document.getElementById('navbar');
+    nb.classList.toggle('shadow-md', window.scrollY > 20);
+    updateActiveLinks();
 });
-});
+// شغّل على أول load عشان يحدد الـ active من البداية
+document.addEventListener('DOMContentLoaded', updateActiveLinks);
 
 // Mobile menu
-let menuOpen = false;
+window.menuOpen = false;
 function toggleMenu() {
-menuOpen = !menuOpen;
-const m = document.getElementById('mobileMenu');
-m.classList.toggle('hidden', !menuOpen);
-m.classList.toggle('flex', menuOpen);
-// Animate hamburger
-document.getElementById('hb1').style.transform = menuOpen ? 'translateY(7.5px) rotate(45deg)' : '';
-document.getElementById('hb2').style.opacity = menuOpen ? '0' : '1';
-document.getElementById('hb3').style.transform = menuOpen ? 'translateY(-7.5px) rotate(-45deg)' : '';
+    window.menuOpen = !window.menuOpen;
+    const m = document.getElementById('mobileMenu');
+    m.style.display = window.menuOpen ? 'flex' : 'none';
+    m.style.flexDirection = 'column';
+    const icon = document.querySelector('#hamburgerBtn i');
+    icon.classList.toggle('fa-bars', !window.menuOpen);
+    icon.classList.toggle('fa-xmark', window.menuOpen);
 }
 function closeMenu() {
-menuOpen = false;
-document.getElementById('mobileMenu').classList.add('hidden');
-document.getElementById('mobileMenu').classList.remove('flex');
-document.getElementById('hb1').style.transform = '';
-document.getElementById('hb2').style.opacity = '1';
-document.getElementById('hb3').style.transform = '';
+    window.menuOpen = false;
+    const m = document.getElementById('mobileMenu');
+    m.style.display = 'none';
+    const icon = document.querySelector('#hamburgerBtn i');
+    icon.classList.add('fa-bars');
+    icon.classList.remove('fa-xmark');
 }
 
 // Scroll reveal
