@@ -1,6 +1,6 @@
 // Active link function منفصلة
 function updateActiveLinks() {
-    ['home', 'services', 'features', 'testimonials', 'about', 'blog', 'contact'].forEach(id => {
+    ['home', 'services', 'features', 'testimonials', 'about', 'blog', 'contact', 'faq'].forEach(id => {
         const el = document.getElementById(id);
         if (!el) return;
         const r = el.getBoundingClientRect();

@@ -35,7 +35,25 @@ body { font-family: 'Cairo', 'Tajawal', sans-serif; direction: rtl; }
 
 /* Nav active */
 .nav-link.active { color:#2563eb; background:#dbeafe; }
-
+.services-parent { position: relative; }
+.services-dropdown {
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4px);
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    z-index: 50;
+}
+.services-parent:hover .services-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.services-parent:hover .services-arrow { transform: rotate(180deg); }
 /* Pattern overlay */
 .pattern-dots {
     background-image: radial-gradient(circle, rgba(255,255,255,0.08) 1px, transparent 1px);
